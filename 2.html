@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub</title>
+    <style>
+        body{
+            background-color: black;
+            max-height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            margin-top: 35px;
+            height: 85vh;
+            width: 40vw;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            background-color: white;
+            justify-content: space-evenly;  
+            padding: 20px;
+
+        }
+        h1{
+            text-align: center;
+        }
+        select{
+            background-color: white;
+            border: none;
+            border: 1px solid gray;
+            padding: 6px;
+            margin-right: 50px;
+            border-radius: 5px;
+        }
+        input{
+            border: 1px solid gray;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        button{
+            padding: 10px;
+            font-size: 13px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+    <label for="username">Name:</label>
+    <input type="text" name="name" id="username">
+    <label for="Batch">Batch:</label>
+    <select name="batch">
+        <option value="1">Sigma 2.0</option>
+        <option value="2">Sigma 1.0</option>
+        <option value="3">Java DSA</option>
+        <option value="4">Java DSA 2.0</option>
+        <option value="5">Web Dev 2.0</option>
+        <option value="6">Web Dev 1.0</option>
+    </select>
+    <label for="userage">Age:</label>
+    <input type="text" name="age" id="userage">
+    <label for="useremail">Email:</label>
+    <input type="email" name="email" id="useremail">
+    <label for="userpassword">Password:</label>
+    <input type="password" name="password" id="userpassword">
+    <button>Signup</button>
+    </div>
+</body>
+</html>
