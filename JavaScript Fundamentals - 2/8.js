@@ -7,5 +7,5 @@ function calculateRemainingDays () {
     return remainingDays; 
 }
 
-const eventDate = '2023-11-24'; // submitting assignment late so using anothor date that is 30 days from today's date
+const eventDate = '2023-11-26'; // submitting assignment late so using anothor date that is 30 days from today's date
 console.log(calculateRemainingDays(eventDate));
